@@ -19,11 +19,21 @@
   },
   "foam.edit.linkReferenceDefinitions": "off",
   "foam.openDailyNote.directory": "journal",
-  "foam.openDailyNote.titleFormat": "fullDate",
+  "foam.openDailyNote.titleFormat": "isoDate",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
   "pasteImage.path": "${projectRoot}/attachments",
   "pasteImage.showFilePathConfirmInputBox": true,
   "prettier.singleQuote": false,
+  "foam.graph.style": {
+    "background": "#202020",
+    "fontSize": 15,
+    "highlightedForeground": "#f9c74f",
+    "node": {
+        "note": "#277da1",
+        "placeholder": "#545454",
+        "feature": "green",
+    }
+  },
 }
